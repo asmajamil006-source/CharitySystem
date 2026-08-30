@@ -1,12 +1,12 @@
 CharityHub
-CharityHub is a web-based donation coordination platform that connects Donors, Receivers, Delivery Agents, and an Admin (Handler) around a single, trackable donation-request lifecycle — from a donor listing an item, to a receiver requesting it, to an admin approving it, to an agent picking it up and delivering it.
+CharityHub is a web-based donation coordination platform that connects Donors, Receivers, Delivery Agents, and an Admin (Handler) around a single, trackable donation-request lifecycle from a donor listing an item, to a receiver requesting it, to an admin approving it, to an agent picking it up and delivering it.
 Features
-Role-based accounts — Donor, Receiver, Agent, and Handler (Admin), each with their own dashboard
-Donor dashboard — list a donation (item, category, quantity, and expiry date for Food/Other categories), delete a donation, and see a notification bell with live status of requests placed against your items
-Receiver flow — request specific donated items
-Admin (Handler) panel — search and filter all requests by item name, category, and status; approve or reject pending requests
-Agent panel — view approved requests filterable by pickup/delivery area, confirm pickup, and mark items as delivered
-Request status pipeline — Pending → Approved / Rejected → Picked Up → Delivered, fully auditable at every step
+Role-based accounts: Donor, Receiver, Agent, and Handler (Admin), each with their own dashboard
+Donor dashboard: list a donation (item, category, quantity, and expiry date for Food/Other categories), delete a donation, and see a notification bell with live status of requests placed against your items
+Receiver flow: request specific donated items
+Admin (Handler) panel: search and filter all requests by item name, category, and status; approve or reject pending requests
+Agent panel: view approved requests filterable by pickup/delivery area, confirm pickup, and mark items as delivered
+Request status pipeline: Pending → Approved / Rejected → Picked Up → Delivered, fully auditable at every step
 Session-based authentication with role-based redirect after login
 Tech Stack
 Backend: PHP (PDO)
